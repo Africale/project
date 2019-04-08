@@ -1,5 +1,5 @@
 body {
-  background-image: url("/Users/alessiagasco/Documents/CSS/grzanka.jpeg");
+  background-image: url("grzanka.jpeg");
   background-repeat: repeat;
   background-size: 100%;
 }
@@ -175,20 +175,20 @@ footer {
 .item-1 {
     z-index: 2;
     opacity: 1;
-  background:url('/Users/alessiagasco/Documents/CSS/slide1.jpeg');
+  background:url('slide1.jpeg');
   background-size:cover;
   }
 .item-2{
-  background:url('/Users/alessiagasco/Documents/CSS/slide22.jpeg');
+  background:url('slide22.jpeg');
    background-size:cover;
 }
 .item-3{
-  background:url('/Users/alessiagasco/Documents/CSS/slide3.jpeg');
+  background:url('slide3.jpeg');
    background-size:cover;
 }
 
 .item-4{
-  background:url('/Users/alessiagasco/Documents/CSS/slide4.jpeg');
+  background:url('slide4.jpeg');
   background-size:cover;
 }
 
