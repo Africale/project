@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Chez Nous </title>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="CSS/Stylesheet.css"/>
+
+
+</head>
+
+<header>
+  <h1 class="logo">Chez Nous!</h1>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <nav>
+    <ul>
+      <li><a href="/Users/alessiagasco/Documents/CSS/intropage.html">Home</a></li>
+      <li><a href="/Users/alessiagasco/Documents/CSS/menupage.html">Menu</a></li>
+      <li><a href="/Users/alessiagasco/Documents/CSS/contact/contactindex.html">Contact</a></li>
+      <li><a href="/Users/alessiagasco/Documents/CSS/location.html">Location</a></li>
+    </ul>
+  </nav>
+
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+</header>
+
+<div class="firstblock">
+  <h1>
+    <main role="main">
+      <section class="moving text">
+        <div class="text-wrapper">
+          Love our
+          <div class="animated-words">
+            <span>FOOD</span>
+            <span>CULTURE</span>
+            <span>VIBES</span>
+            <span>STAFF</span>
+          </div>
+        </div>
+
+      </section>
+    </main>
+  </h1>
+</div>
+
+<br>
+<br>
+<br>
+
+
+<div class="quote">
+  <p> Chez Nous! opened its doors in December 2018, and has quickly become a firm favourite amongst locals and tourists alike.</p>
+
+  <p> Alessia, Sara and Heather are the creative force behind Chez Nous! </p>
+
+</div>
+
+
+
+<br>
+<br>
+<br>
+
+<div class="container">
+  <h4 class="booking"> Book a table at Chez Nous and start the fun! </h4>
+
+  <div id="msg"></div>
+
+  <form id="reservation" method="post">
+
+    <p><input type="text" name="name" required placeholder="Enter Name"></p>
+
+    <p><input type="text" name="phone" required placeholder="Enter Your Phone"></p>
+
+    Date: <input type="date" id="date" name="date" required>
+
+    Time: <select name="time">
+
+      <option value="16:00">16:00</option>
+      <option value="17:00">17:00</option>
+      <option value="18:00">18:00</option>
+      <option value="19:00">19:00</option>
+      <option value="20:00">20:00</option>
+      <option value="21:00">21:00</option>
+
+    </select> <br><br>
+
+    Party: <select  name="party">
+
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="4+">4+</option>
+
+    </select> <br><br>
+
+    <button type="submit" name="button">Book</button>
+
+
+  </form>
+
+
+
+
+  <script type="text/javascript">
+  var today = new Date();
+  var dd = today.getDate();
+  var mm = today.getMonth() + 1; //January is 0!
+  var yyyy = today.getFullYear();
+  if (dd < 10) {
+    dd = '0' + dd;
+  }
+  if (mm < 10) {
+    mm = '0' + mm;
+  }
+  var today = yyyy + "-" + mm + "-" + dd;
+  var currentD = today.toString();
+  document.getElementById("date").setAttribute("min", currentD);
+  </script>
+</div>
+
+<br>
+<br>
+
+<h3 class= "reviews"> What peoople say about us... </h3>
+<div class="flex-container">
+  <div class="col">
+    <p class="marty-review"> A noisy din, in the best possible way!
+      The perfect storm of small place and plates! </p>
+
+      <p class="reviewer-name"> <strong> Marty Stepien </strong>, The Times </p>
+
+    </div>
+    <div class="col">
+      <p class="andrea-review"> A great place where to enjoy good food and drinks.
+        The food is sophisticated and accesible. Interesting combinations and flavours.</p>
+
+        <p class="reviewer-name"> <underline> Andrea Kereliuk </underline>, The Guardian  </p>
+      </div>
+      <div class="col">
+        <p class="isabelle-review"> Take tasty food, great vibes and boozy drinks...
+          mix everything together and you will have a taste of what Chez Nous is! </p>
+
+          <p class="reviewer-name"> <strong> Isabelle Taylor </strong>, Time Out </p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <form action="action_page.php" style="border:1px solid #ccc">
+      <div class="container">
+        <h2>Sign Up for fun news and free stuff! </h2>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+
+        <p>By creating an account you agree to our <a href="Term and privacy/terms.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+        <div class="clearfix">
+          <button type="submit" class="signupbtn">Sign Up</button>
+        </div>
+      </div>
+    </form>
+
+
+    <br>
+    <br>
+    <br>
+
+    <div class= "social-media">
+      <!-- Add icon library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <h2 class= "follow-us"> Follow us! </h2>
+      <!-- Add font awesome icons -->
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-linkedin "></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-snapchat-ghost"></a>
+
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+    </html>

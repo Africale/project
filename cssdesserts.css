@@ -1,0 +1,96 @@
+body {
+  background-image: url(/Users/Sara/Desktop/html/CSS/donut.jpeg);
+  background-size: 100%;
+}
+
+
+.title {
+  color: #510319;
+  text-align: center;
+  font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+  font-size: 100px;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+  font-size: 70px;
+  background-color: rgb(110, 37, 37, 0.5)
+}
+
+div {
+  text-align: center;
+}
+
+.table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  text-align: center;
+  background-color: rgb(237, 236, 237, 0.5);
+}
+
+th, td {
+  padding: 20px;
+  border: none;
+}
+
+td {
+  border: none;
+}
+
+th {
+  height: 70px;
+  border: none;
+}
+
+.name {
+  font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.name:hover {
+  font-size: 35px;
+  color: #510319;
+}
+
+.description {
+  font-size: 20px;
+  color: black;
+  font-style: oblique;
+  font: Helvetica, sans-serif;
+}
+
+.heading {
+  color: #511f2d;
+  font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+  font-size: 45px;
+}
+
+footer {
+  padding: 0;
+  background-color: rgb(110, 37, 37, 0.5);
+  color: white;
+  font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+footer:hover {
+  color: #510319;;
+}
+
+.link {
+  font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.home {
+  font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+  font-size: 30px;
+}

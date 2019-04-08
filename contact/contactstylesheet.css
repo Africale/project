@@ -1,0 +1,68 @@
+.parallax {
+  font-family: 'Pacifico', Helvetica, sans-serif;
+  font-size: 8rem;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #F3B6B6;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.parallax {
+  background-image: url('/Users/alessiagasco/Documents/CSS/contact/contactimage.jpg');
+  height: 80%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mobilepart {
+  font-family: 'Pacifico', Helvetica, sans-serif;
+  margin-top: 0;
+  height:fit-content;
+  background-color:#F3B6B6;
+  font-size:2rem;
+}
+
+p {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.introduction {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.secondline {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.thirdline {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+img {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 80px;
+  display: block;
+}
+
+.alessia {
+  background-color: #b26790;
+  background-size: contain;
+}
+
+.sara {
+  background-color: #b26790;
+  background-size: contain;
+}
